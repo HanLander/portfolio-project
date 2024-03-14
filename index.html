@@ -31,27 +31,30 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/style.css" />
-
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Hannah is a front-end developer based in the UK. She did her training with SheCodes."
+    />
+    <title>Font-end developer - Hannah Lander</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img src="images/logo.jpg" class="logo" alt="Hannah Lander Logo" />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Hannah"> About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Hannah's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Hannah">Contact</a>
           </li>
         </ul>
       </nav>
@@ -60,7 +63,9 @@
       <h1>Hannah Lander</h1>
       <h2 class="mb-5">Front-end Developer based in the UK</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured projects</p>
@@ -70,8 +75,7 @@
           <img
             src="images/swimming.jpeg"
             class="img-fluid"
-            alt="Michael Phelps
-          swimming"
+            alt="Swimming project preview"
           />
         </div>
         <div class="col">
@@ -83,7 +87,12 @@
               offers numerous health benefits and is suitable for people of all
               ages and fitness levels.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Learn more"
+              >Learn more</a
+            >
           </div>
         </div>
 
@@ -97,11 +106,20 @@
                 techniques. It offers numerous health benefits and is suitable
                 for people of all ages and fitness levels.
               </p>
-              <a href="" class="btn btn-branding-outline">Learn more</a>
+              <a
+                href="/work.html"
+                class="btn btn-branding-outline"
+                title="Learn more"
+                >Learn more</a
+              >
             </div>
           </div>
           <div class="col d-none d-lg-block">
-            <img src="images/weather.png" class="img-fluid" alt="Weather App" />
+            <img
+              src="images/weather.png"
+              class="img-fluid"
+              alt="Weather app preview"
+            />
           </div>
           <div class="row mb-5">
             <div class="col d-none d-lg-block">
@@ -116,12 +134,17 @@
                 <h2 class="mb-5">Ruma Candles</h2>
                 <p class="mb-5">
                   In January 2023 I finally launched the side project I had been
-                  working on throughout 2022, Ruma Candles. Ruma Cndles is a
+                  working on throughout 2022, Ruma Candles. Ruma Candles is a
                   small business that I am building, I make all of the candles
                   by hand in my kitchen at home and sell them on Etsy and at
                   local markets.
                 </p>
-                <a href="" class="btn btn-branding-outline">Learn more</a>
+                <a
+                  href="/work.html"
+                  class="btn btn-branding-outline"
+                  title="Learn more"
+                  >Learn more</a
+                >
               </div>
             </div>
           </div>
@@ -132,27 +155,48 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Lets work together!</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding">Contact me</a>
+            <a href="/contact.html" class="btn btn-branding" title="Contact me"
+              >Contact me</a
+            >
           </div>
         </div>
 
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:hannah.lander93@gmail.com" class="email-link"
+          <a
+            href="mailto:hannah.lander93@gmail.com"
+            class="email-link"
+            title="Email Hannah"
             >Email me!</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/hanlander" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
+          <a
+            href="https://www.linkedin.com/in/hannah-lander-b02311b0/"
+            target="_blank"
+            title="Linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href="https://www.github.com/HanLander" target="_blank">
+          <a
+            href="https://www.github.com/HanLander"
+            target="_blank"
+            title="Github"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-4">
+          🤙 This website was coded by Hannah Lander and is
+          <a
+            href="https://github.com/HanLander/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

@@ -14,7 +14,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }
@@ -27,7 +27,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero h2 {
@@ -39,7 +39,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -168,9 +168,10 @@ footer .social-links a:hover {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  .hero p {
+    text-align: center;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -179,6 +180,9 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .btn-branding-outline {
+    margin-bottom: 20px;
   }
 
   nav a {
