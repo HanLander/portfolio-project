@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #31473a;
-  --secondary-color: #edf4f2;
+  --branding-color: rgb(61, 114, 179);
+  --secondary-color: rgba(223, 236, 252, 0.4);
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Playfair Display", serif;
 }
